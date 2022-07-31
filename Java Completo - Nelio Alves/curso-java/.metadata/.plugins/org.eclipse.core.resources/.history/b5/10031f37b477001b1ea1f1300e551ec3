@@ -1,0 +1,15 @@
+package classe;
+
+public class Data {
+
+	int dia;
+	int mes;
+	int ano;
+}
+
+
+
+/*
+ * Criar classe Data, e DataTeste. Tres atributos (dia, mes e ano). Criar uma DataTeste, e dentro tenha metodo main
+ *e instancie duas datas.
+*/

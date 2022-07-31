@@ -1,0 +1,13 @@
+package classe.desafio;
+
+public class PessoaDesafio {
+
+	String nome;
+	double peso;
+	
+	PessoaDesafio(String nome, double peso){
+		this.nome = nome;
+		this.peso = peso;
+	}
+}
+

@@ -1,0 +1,13 @@
+package classe;
+
+public class Produto {
+		
+		String nome;
+		double preco = 10;
+		double desconto = 0.1;
+
+		double precoComDesconto (){
+			return preco*(1-desconto);
+			System.out.println(precoComDesconto());
+		}
+}

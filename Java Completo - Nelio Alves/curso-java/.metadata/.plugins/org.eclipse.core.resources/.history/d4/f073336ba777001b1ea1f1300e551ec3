@@ -1,0 +1,32 @@
+package classe;
+
+import java.util.Scanner;
+
+public class DataTeste {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		Data data1 = new Data();
+		System.out.println("Insira o primeiro dia: ");
+		data1.dia = entrada.nextInt();
+		System.out.println("Insira o primeiro mês: ");
+		data1.mes = entrada.nextInt();
+		System.out.println("Insira o primeiro ano: ");
+		data1.ano = entrada.nextInt();
+
+		Data data2 = new Data();
+		System.out.println("Insira o primeiro dia: ");
+		data2.dia = entrada.nextInt();
+		System.out.println("Insira o primeiro mês: ");
+		data2.mes = entrada.nextInt();
+		System.out.println("Insira o primeiro ano: ");
+		data2.ano = entrada.nextInt();
+		
+		System.out.printf("A primeira data digitada foi %d/%d/%d", data1.dia, data1.mes, data1.ano);
+		System.out.printf("A primeira data digitada foi %d/%d/%d,", data2.dia, data2.mes, data2.ano);
+		
+		entrada.close();
+	}
+}
