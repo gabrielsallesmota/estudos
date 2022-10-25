@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Array/src"/>
+	<classpathentry kind="src" path="Classes/src"/>
+	<classpathentry kind="src" path="Conta/src"/>
+	<classpathentry kind="src" path="Contrutores/src"/>
+	<classpathentry kind="src" path="course/src"/>
+	<classpathentry kind="src" path="curso-java/clinica/src"/>
+	<classpathentry kind="src" path="curso-java/course/src"/>
+	<classpathentry excluding="oo/heranca/desafio/" kind="src" path="curso-java/exercicios/src"/>
+	<classpathentry kind="src" path="curso-java/exercicios/src/oo/heranca/desafio"/>
+	<classpathentry kind="src" path="EstruturasCondicionais/src"/>
+	<classpathentry kind="src" path="Exceptions/src"/>
+	<classpathentry kind="src" path="helloEclipse/src"/>
+	<classpathentry kind="src" path="Herança/src"/>
+	<classpathentry kind="src" path="Loops/src"/>
+	<classpathentry kind="src" path="Matriz/src"/>
+	<classpathentry kind="src" path="metodoAbstrato/src"/>
+	<classpathentry kind="src" path="Metodos/src"/>
+	<classpathentry kind="src" path="OperadoresBasicos/src"/>
+	<classpathentry kind="src" path="OperadoresRelacionaisLogicos/src"/>
+	<classpathentry kind="src" path="ProjetoAula/src"/>
+	<classpathentry kind="src" path="VariaveisJava/src"/>
+	<classpathentry kind="src" path="Interfaces"/>
+	<classpathentry kind="output" path="Array/bin"/>
+</classpath>

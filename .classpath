@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Array/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Classes/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Conta/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Contrutores/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/course/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/curso-java/clinica/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/curso-java/course/src"/>
+	<classpathentry excluding="oo/heranca/desafio/" kind="src" path="Java Completo - Nelio Alves/curso-java/exercicios/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/curso-java/exercicios/src/oo/heranca/desafio"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/EstruturasCondicionais/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Exceptions/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/helloEclipse/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Herança/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Loops/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Matriz/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/metodoAbstrato/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/Metodos/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/OperadoresBasicos/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/OperadoresRelacionaisLogicos/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/ProjetoAula/src"/>
+	<classpathentry kind="src" path="Java Completo - Nelio Alves/VariaveisJava/src"/>
+	<classpathentry kind="output" path="Java Completo - Nelio Alves/Array/bin"/>
+</classpath>
