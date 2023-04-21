@@ -2,15 +2,15 @@
 
 ### 1- Instalação PIP <h3>
 
-=Windows= &nbsp;
+=Windows=&nbsp;
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 
-=Mac= &nbsp;
+=Mac=&nbsp;
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
-=Linux= &nbsp;
+=Linux=&nbsp;
 sudo apt install python3-pip
 
 ### 2- Instalação Virtualenv <h3>
