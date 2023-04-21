@@ -2,15 +2,15 @@
 
 ### 1- Instalação PIP <h3>
 
-=Windows=
+=Windows= &nbsp;
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 
-=Mac=
+=Mac= &nbsp;
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
-=Linux= 
+=Linux= &nbsp;
 sudo apt install python3-pip
 
 ### 2- Instalação Virtualenv <h3>
@@ -23,18 +23,18 @@ https://github.com/alura-cursos/alura_space/archive/refs/heads/projeto_front.zip
 
 ### 4- Estabeleça um ambiente virtual dentro do diretório do projeto <h3>
 
-=Windows=
+=Windows= &nbsp;
 python -m virtualenv venv
 
-=Linux/Mac=
+=Linux/Mac= &nbsp;
 virtualenv -p python3 venv
 
 ### 5- Ative o ambiente virutal <h3>
 
-=Windows=
+=Windows= &nbsp;
 source venv/Scripts/activate
 
-=Linux/Mac=
+=Linux/Mac=&nbsp;
 source venv/bin/activate
 
 ### 6- Instalar o Django**
