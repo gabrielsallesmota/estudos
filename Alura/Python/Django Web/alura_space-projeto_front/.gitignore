@@ -1,174 +1,56 @@
-# Created by https://www.toptal.com/developers/gitignore/api/django
-# Edit at https://www.toptal.com/developers/gitignore?templates=django
+# **_Configurações Iniciais Projetos_** <h1>
 
-### Django ###
-*.log
-*.pot
-*.pyc
-__pycache__/
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-media
+### 1- Instalação PIP <h3>
 
-# If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
-# in your Git repository. Update and uncomment the following line accordingly.
-# <django-project-name>/staticfiles/
+=Windows=&nbsp;
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
 
-### Django.Python Stack ###
-# Byte-compiled / optimized / DLL files
-*.py[cod]
-*$py.class
+=Mac=&nbsp;
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
 
-# C extensions
-*.so
+=Linux=&nbsp;
+sudo apt install python3-pip
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+### 2- Instalação Virtualenv <h3>
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+pip install virtualenv
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+### 3- Download FrontEnd - Exclusivo para este projeto <h3>
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+https://github.com/alura-cursos/alura_space/archive/refs/heads/projeto_front.zip
 
-# Translations
-*.mo
+### 4- Estabeleça um ambiente virtual dentro do diretório do projeto <h3>
 
-# Django stuff:
+=Windows= &nbsp;
+python -m virtualenv venv
 
-# Flask stuff:
-instance/
-.webassets-cache
+=Linux/Mac= &nbsp;
+virtualenv -p python3 venv
 
-# Scrapy stuff:
-.scrapy
+### 5- Ative o ambiente virutal <h3>
 
-# Sphinx documentation
-docs/_build/
+=Windows= &nbsp;
+source venv/Scripts/activate
 
-# PyBuilder
-.pybuilder/
-target/
+=Linux/Mac=&nbsp;
+source venv/bin/activate
 
-# Jupyter Notebook
-.ipynb_checkpoints
+### 6- Instalar o Django**
 
-# IPython
-profile_default/
-ipython_config.py
+pip install django 
 
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
+### 7- requirements.txt - Boas Praticas <h3>
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+Por boas praticas é necessário gerar um arquivo requirements.txt na raíz do projeto
 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
+pip freeze > requirements.txt
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
-.pdm.toml
+### 8-  Crie o Projeto Django <h3>
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
+django-admin startproject setup .
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+### 9- Rode o servidor pela primeira vez <h3>
 
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
-
-# End of https://www.toptal.com/developers/gitignore/api/django
+python manage.py runserver
