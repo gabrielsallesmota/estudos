@@ -54,3 +54,15 @@ django-admin startproject setup .
 ### 9- Rode o servidor pela primeira vez <h3>
 
 python manage.py runserver
+
+### 10- Por boas praticas nao se pode enviar todo o projeto, há itens de segurança, como por exemplo na settings.py, a SECRECT_KEY <h3>
+
+= Para isso existe um pacote de variaveis de ambiente que serve para que quando suba para o github nao envie essas chaves.
+    = instalar dependencia python-dotenv
+    = pip freeze > requirements.txt (para atuailizar o arquivo de pacotes)
+= Criar na raiz do projeto um arquivo .env e colar o secret key (Remover Aspas)
+
+### 11- Git Ignore <h3>
+
+= Gerar um arquivo .gitignore na raíz do projeto
+= Acessar gitignore.io para gerar o gitignore da linguagem utilizada
