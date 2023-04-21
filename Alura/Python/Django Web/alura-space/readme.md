@@ -1,6 +1,6 @@
 # **_Configurações Iniciais Projetos_** <h1>
 
-**1- Instalação PIP**
+### 1- Instalação PIP <h3>
 
 =Windows=
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -13,15 +13,15 @@ python3 get-pip.py
 =Linux= 
 sudo apt install python3-pip
 
-**2- Instalação Virtualenv**
+### 2- Instalação Virtualenv <h3>
 
 pip install virtualenv
 
-**3- Download FrontEnd - Exclusivo para este projeto**
+### 3- Download FrontEnd - Exclusivo para este projeto <h3>
 
 https://github.com/alura-cursos/alura_space/archive/refs/heads/projeto_front.zip
 
-**4- Estabeleça um ambiente virtual dentro do diretório do projeto**
+### 4- Estabeleça um ambiente virtual dentro do diretório do projeto <h3>
 
 =Windows=
 python -m virtualenv venv
@@ -29,7 +29,7 @@ python -m virtualenv venv
 =Linux/Mac=
 virtualenv -p python3 venv
 
-**5- Ative o ambiente virutal**
+### 5- Ative o ambiente virutal <h3>
 
 =Windows=
 source venv/Scripts/activate
@@ -37,20 +37,20 @@ source venv/Scripts/activate
 =Linux/Mac=
 source venv/bin/activate
 
-**6- Instalar o Django**
+### 6- Instalar o Django**
 
 pip install django 
 
-**7- requirements.txt - Boas Praticas**
+### 7- requirements.txt - Boas Praticas <h3>
 
 Por boas praticas é necessário gerar um arquivo requirements.txt na raíz do projeto
 
 pip freeze > requirements.txt
 
-**7- Crie o Projeto Django**
+### 8-  Crie o Projeto Django <h3>
 
 django-admin startproject setup .
 
-**8- Rode o servidor pela primeira vez**
+### 9- Rode o servidor pela primeira vez <h3>
 
 python manage.py runserver
