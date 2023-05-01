@@ -1,0 +1,31 @@
+===========================================
+============= TEMPLATE ====================
+===========================================
+
+1) Acesse o arquivo views.py dentro do diretório do app galeria e crie um função responsável por mostrar um HTML da página principal do site;
+
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse('<h1>Bem vindo à minha primeira página!!!!</h1>')
+
+2) Crie um novo arquivo chamado urls.py dentro do diretório da aplicação galeria;
+
+3) Crie uma “palheta” de urls dentro do arquivo urls.py (do diretório galeria) que leve à função index;
+
+from django.urls import path
+from galeria.views import index
+
+urlpatterns = [
+    path('', index)
+]
+
+4) Altere o arquivo urls.py do diretório do projeto (setup) para incluir a "palheta" de urls mencionada no urls.py de galeria;
+
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('galeria.urls'))
+]
