@@ -3,6 +3,7 @@ from django.db import models
 
 class Fotografia(models.Model):
 
+    ##criação opções (choices)
     OPCOES_CATEGORIA = [
         ("NEBULOSA", "Nebulosa"),
         ("ESTRELA", "Estrela"),
