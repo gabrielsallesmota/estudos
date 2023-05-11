@@ -1,3 +1,4 @@
 from django.contrib import admin
+from galeria.views import Fotografia
 
-# Register your models here.
+admin.site.register(Fotografia)

@@ -54,3 +54,15 @@ django-admin startproject setup .
 ### 9- Rode o servidor pela primeira vez <h3>
 
 python manage.py runserver
+
+### 10 - Criar App Chamado 'Escola'<h3>
+
+python manage.py startapp escola
+
+### 11 - Instalar Django Rest Framework<h3>
+
+pip install djangorestframework
+pip install markdown       # Markdown support for the browsable API.
+pip install django-filter  # Filtering support
+
+Adicionar 'rest_framework' nos app em settings.py

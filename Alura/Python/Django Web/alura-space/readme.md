@@ -66,3 +66,10 @@ python manage.py runserver
 
 = Gerar um arquivo .gitignore na raíz do projeto
 = Acessar gitignore.io para gerar o gitignore da linguagem utilizada
+
+### 12- Django Admin <h3>
+
+= Por padrão o Django já possui uma tela Admin (/admin)
+= Comando para criar admin
+    = python manage.py createsuperuser
+
