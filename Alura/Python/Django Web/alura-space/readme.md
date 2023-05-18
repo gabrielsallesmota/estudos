@@ -73,3 +73,13 @@ python manage.py runserver
 = Comando para criar admin
     = python manage.py createsuperuser
 
+### 13- Criar App <h3>
+
+= python manage.py startapp nome_do_app
+= adicionar o app no setup/settings.py -> nome_do_app.apps.nome_do_appConfig (informação pode ser coletada no app.py na pasta do app criado)
+= Editar urls.py
+    = from django.urls import path
+
+        urlpatterns = [
+
+        ]
