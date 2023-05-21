@@ -11,7 +11,7 @@ class ListandoFotografias(admin.ModelAdmin):
     # adiciona campo busca
     search_fields = ("nome",)
     # filtrar por categoria
-    list_filter = ("categoria",)
+    list_filter = ("categoria", "usuario")
     # itens por página
     list_per_pages = 10
     # tornar o publicada disponível para alteração na pagina de Fotografias 
