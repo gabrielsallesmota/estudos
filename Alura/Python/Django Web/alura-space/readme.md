@@ -83,3 +83,9 @@ python manage.py runserver
         urlpatterns = [
 
         ]
+= Adiconar nome_do_app em setup/urls.py
+    = Exemplo:
+        = urlpatterns = [
+            path('admin/', admin.site.urls),
+            path('', include('nome_do_app.urls')),
+        ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
