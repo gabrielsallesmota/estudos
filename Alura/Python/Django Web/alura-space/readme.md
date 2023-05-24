@@ -58,9 +58,15 @@ python manage.py runserver
 ### 10- Por boas praticas nao se pode enviar todo o projeto, há itens de segurança, como por exemplo na settings.py, a SECRECT_KEY <h3>
 
 = Para isso existe um pacote de variaveis de ambiente que serve para que quando suba para o github nao envie essas chaves.
-    = instalar dependencia python-dotenv
-    = pip freeze > requirements.txt (para atuailizar o arquivo de pacotes)
-= Criar na raiz do projeto um arquivo .env e colar o secret key (Remover Aspas)
+= instalar dependencia python-dotenv
+= pip freeze > requirements.txt (para atuailizar o arquivo de pacotes)
+= Criar na raiz do projeto um arquivo .env e colar o secret key - Linha 23 settings.py (Remover Aspas)
+= no arquivo .env inserir SECRECT_KEY = com aspas simples
+= linha 13 inserir:
+from pathlib import Path, os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ### 11- Git Ignore <h3>
 
