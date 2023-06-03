@@ -1,0 +1,5 @@
+Ordem criação Endpoint:
+
+- app/nome_app/serializer.py
+- app/nome_app/views.py
+- setup/urls.py
